@@ -1,0 +1,147 @@
+@import url(./reset.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 688px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: #d4d3d8;
+}
+
+h1 {
+  padding-top: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+}
+
+.upper__p {
+  padding-bottom: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #818182;
+}
+
+.first__label {
+  margin-right: 427px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.second__label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  max-width: 452px;
+  height: 38px;
+  padding: 9px 360px 8px 17px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#name::placeholder {
+  color: #abb5be;
+}
+
+.input__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  column-gap: 20px;
+  border-radius: 4px;
+}
+
+#school {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  padding-left: 15px;
+  border-radius: 4px;
+  height: 38px;
+  width: 216px;
+}
+
+.line {
+  border: 1px solid #dee2e6;
+  margin-bottom: 40px;
+}
+
+#school {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb5be;
+}
+
+.card {
+  width: 334px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  background: #fff;
+}
+
+img {
+  object-fit: cover;
+  margin-bottom: 24px;
+  width: 100%;
+  height: 192px;
+}
+
+.info__card {
+  margin-left: 24px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.card__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
